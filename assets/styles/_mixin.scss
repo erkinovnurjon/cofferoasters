@@ -1,0 +1,15 @@
+@mixin f-barlow{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    
+
+}
+@mixin f-fraunces{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+@mixin d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

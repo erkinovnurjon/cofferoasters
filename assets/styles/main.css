@@ -1,0 +1,348 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar li {
+  gap: 25px;
+  padding-right: 15px;
+}
+.navbar a {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+ul li a:hover {
+  color: #000000;
+  transition: all ease 1s;
+}
+
+.hero {
+  background-image: url(../images/png/hero-bg.jpg);
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero__title {
+  width: 43%;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.hero__title h1 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 72px;
+  /* identical to box height, or 100% */
+  color: #FEFCF7;
+}
+.hero__title p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.about {
+  background-image: url(../images/png/about_bg.jpg);
+  width: 100%;
+  height: 550px;
+  background-repeat: no-repeat;
+}
+.about .about__title {
+  padding-top: 100px;
+  margin-left: 50px;
+  align-items: center;
+}
+.about .about__title .oval {
+  margin-top: -20px;
+}
+.about .about__title .oval img {
+  padding-right: 315px;
+}
+
+.about__cards {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 50px;
+  gap: 50px;
+  width: 80%;
+}
+.about__cards .about__box h1 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+  color: #FEFCF7;
+}
+.about__cards .about__box p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+}
+
+.section .content h1 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #83888F;
+}
+.section .content h1 span {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #333D4B;
+  opacity: 1;
+}
+
+.section__info {
+  display: flex;
+}
+
+.card__content {
+  width: 70%;
+  margin-left: 160px;
+  display: block;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .box {
+  background: #F4F1EB;
+  border-radius: 8px;
+  width: 238px;
+  height: 250px;
+}
+.card .box h1 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #333D4B;
+  margin: 30px;
+}
+.card .box p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  margin: 30px;
+  color: #333D4B;
+}
+.card .box .box:hover {
+  transform: scale(1.1);
+}
+.card .box-bg {
+  background: #0E8784;
+  border-radius: 8px;
+  width: 238px;
+  height: 250px;
+}
+.card .box-bg h1 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #FFFFFF;
+  margin: 30px;
+}
+.card .box-bg p {
+  font-family: "Barlow";
+  font-style: normal;
+  margin: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+}
+
+.card .box:hover {
+  transform: scale(1.1);
+}
+
+.card .box-bg:hover {
+  transform: scale(1.1);
+}
+
+.card__title {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.card__title h1 {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #83888F;
+}
+
+.section1 {
+  margin-left: 170px;
+  width: 100%;
+}
+
+.section__first {
+  margin-top: 100px;
+}
+.section__first .order {
+  background-color: #2C343E;
+  width: 70%;
+  float: right;
+}
+.section__first .order h1 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin: 20px 50px;
+}
+.section__first .order p {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  margin: 20px 50px;
+  /* or 167% */
+  color: #FFFFFF;
+}
+.section__first .order p span {
+  color: #0E8784;
+}
+
+.order__btn {
+  padding-top: 250px;
+  margin-left: 920px;
+}
+.order__btn button {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height, or 139% */
+  text-align: center;
+  color: #FEFCF7;
+  background: #0E8784;
+  border-radius: 6px;
+  border: none;
+  padding: 13px 18px;
+}
+.order__btn button:hover {
+  background-color: #0c1727;
+  color: #FFFFFF;
+  transition: all 1s ease;
+}
+
+footer {
+  background: #2C343E;
+  margin: 0 200px;
+  height: 100px;
+  margin-top: 100px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.footer__center ul {
+  gap: 30px;
+}
+.footer__center ul li a {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+.footer__center ul li a:hover {
+  color: #fff;
+  transition: all 1s ease;
+}
+
+.footer__right img {
+  padding-left: 20px;
+}/*# sourceMappingURL=main.css.map */
